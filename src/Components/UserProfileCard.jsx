@@ -37,9 +37,9 @@ export default function UserProfileCard() {
   const [likes, setLikes] = useState(() => persistentStorage.get('likes') || 42);
   const [isLiked, setIsLiked] = useState(() => persistentStorage.get('isLiked') || false);
   const [userInfo, setUserInfo] = useState(() => ({
-    name: persistentStorage.get('name') || "Sarah Johnson",
-    title: persistentStorage.get('title') || "Senior Frontend Developer",
-    company: persistentStorage.get('company') || "TechCorp Inc.",
+    name: persistentStorage.get('name') || "Malatesha",
+    title: persistentStorage.get('title') || "Frontend Developer",
+    company: persistentStorage.get('company') || "CSUEB",
     location: persistentStorage.get('location') || "San Francisco, CA",
     bio: persistentStorage.get('bio') || "Passionate about creating beautiful, accessible web experiences. React enthusiast and open source contributor.",
     joinDate: "March 2021",
